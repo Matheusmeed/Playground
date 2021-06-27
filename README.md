@@ -1,12 +1,12 @@
-<h1 style="text-align: center;">Playground</h1>
-<p style="text-align: center;">Site de entretenimento que possui um jogo da memória e um jogo da velha.</p>
+<h1 align="center">PLAYGROUND</h1>
+<p align="center">Site de entretenimento que possui um jogo da memória e um jogo da velha.</p>
 
 
 ## :camera_flash: Demonstração
 <img src='./images/playground.gif'></img>
 
 ## :computer: Teste o Site
-<a href="https://churrascometromeed.netlify.app/">Clique aqui para testar o site</a>
+<a href="https://playgroundmeed.netlify.app/">Clique aqui para testar o site</a>
 
 ## :rocket: Tecnologias
 
