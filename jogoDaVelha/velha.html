@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+    <h1>Jogo da velha</h1>
+
+    <div class="stage">
+        <div>
+            <div id="0" class="square">
+            </div>
+            <div id="1" class="square y">
+            </div>
+            <div id="2" class="square">
+
+            </div>
+        </div>
+        <div id="meio">
+            <div id="3" class="square">
+
+            </div>
+            <div id="4" class="square y">
+
+            </div>
+            <div id="5" class="square">
+
+            </div>
+        </div>
+        <div>
+            <div id="6" class="square">
+
+            </div>
+            <div id="7" class="square y">
+
+            </div>
+            <div id="8" class="square">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="gameOver">
+        <div id="winner">
+
+        </div>
+        <button id="restart" class="btnFim" onclick="restart()">Jogar novamente</button>
+        <a href="../index.html"><button class="btnFim">Voltar ao menu</button></a>
+    </div>
+
+
+    <script src="scripts/game.js"></script>
+    <script src="scripts/interface.js"></script>
+</body>
+
+</html>

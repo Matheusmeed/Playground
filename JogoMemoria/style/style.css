@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #250036;
+}
+
+.card {
+  width: 125px;
+  height: 125px;
+  position: relative;
+
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card_back,
+.card_front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px #00ff2abe;
+  backface-visibility: hidden;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.card_front {
+  background-color: #000225;
+  transform: rotateY(180deg);
+}
+
+.card_back {
+  color: #00f13c;
+  background-color: #000000;
+  font-size: 30px;
+}
+
+.card_back:hover {
+  cursor: pointer;
+}
+
+#gameOver {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.88);
+  color: white;
+  font-size: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+}
+
+.btnFim {
+  cursor: pointer;
+  width: 400px;
+  padding: 25px;
+  font-size: 30px;
+  background-color: #00f13c;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.btnFim:hover {
+  background-color: #00f13c5b;
+  transition: 0.6s;
+}
+
+#gameBoard {
+  max-width: 700px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}

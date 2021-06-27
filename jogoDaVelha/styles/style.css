@@ -1,0 +1,108 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 5em;
+  color: #3b3b3b;
+  text-shadow: 2px 2px red;
+}
+
+.stage {
+  margin-top: 70px;
+}
+
+body {
+  background-color: black;
+}
+
+.square {
+  background-color: #3b3b3b00;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.y {
+  border-style: none;
+  border-left: 6px solid red;
+  border-right: 6px solid red;
+}
+
+#meio {
+  border-top: 6px solid red;
+  border-bottom: 6px solid red;
+  display: inline-block;
+}
+
+.x {
+  position: relative;
+}
+
+.x::after {
+  position: absolute;
+  content: "\2B55";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.o {
+  position: relative;
+}
+
+.o::after {
+  position: absolute;
+  content: "\274C";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.btnFim {
+  color: #3b3b3b;
+  font-size: 0.7em;
+  width: 440px;
+  background-color: #fc5959c2;
+  border: 1px solid #3b3b3b;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.2s ease-in;
+}
+
+.btnFim:hover {
+  cursor: pointer;
+  background-color: #3b3b3b;
+  color: #fc5959c2;
+  border: 1px solid #fc5959c2;
+  transition: 0.6s;
+}
+
+#gameOver {
+  position: absolute;
+  width: 99%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.88);
+  color: white;
+  font-size: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+}
+
+.winnerSymbol {
+  background: none;
+  color: red;
+}
