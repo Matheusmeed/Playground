@@ -3,7 +3,7 @@
 
 
 ## :camera_flash: Demonstração
-<img src='./img/churrascometro.gif'></img>
+<img src='./images/playground.gif'></img>
 
 ## :computer: Teste o Site
 <a href="https://churrascometromeed.netlify.app/">Clique aqui para testar o site</a>
