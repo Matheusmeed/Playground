@@ -5,9 +5,6 @@
 ## :camera_flash: Demonstração
 <img src='./images/playground.gif'></img>
 
-## :computer: Teste o Site
-<a href="https://playgroundmeed.netlify.app/" target="_blank">Clique aqui para testar o site</a>
-
 ## :rocket: Tecnologias
 
 As seguintes ferramentes foram utilizadas na construção desse projeto:
